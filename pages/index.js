@@ -6,15 +6,21 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Фамильный домен Попывановых</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Добро пожаловать!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Домен <code>popyvanov.ru</code> занят. Для того, чтобы получить домены типа  <code>XXX.popyvanov.ru</code> или почты формата <code>XXX@popyvanov.ru</code>
+    свяжитесь с <a href="mailto:mail@htmlacademy.ru">владельцем домена</a>
         </p>
+     <ul>
+     <li><a href="https://s.popyvanov.ru/blog">https://s.popyvanov.ru/blog</a> - персональный блог</li>
+     <li><a href="https://s.popyvanov.ru">https://s.popyvanov.ru</a> - визитка</li>
+     <li><a href="https://s.popyvanov.ru/dg">https://s.popyvanov.ru/dg</a> - цифровой сад</li>
+   </ul>
       </main>
 
       <Footer />
