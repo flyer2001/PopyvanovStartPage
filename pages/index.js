@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Добро пожаловать!" />
+        <h1 className="title">Добро пожаловать!</h1>
         <p className="description">
           Домен <code>popyvanov.ru</code> занят. Для того, чтобы получить домены типа  <code>XXX.popyvanov.ru</code> или почты формата <code>XXX@popyvanov.ru</code>
     свяжитесь с <a href="mailto:mail@htmlacademy.ru">владельцем домена</a>
