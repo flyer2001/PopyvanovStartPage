@@ -13,8 +13,10 @@ export default function Home() {
       <main>
         <h1 className="title">Добро пожаловать!</h1>
         <p className="description">
-          Домен <code>popyvanov.ru</code> занят. </br>Для того, чтобы получить домены типа  <code>XXX.popyvanov.ru</code> или почты формата <code>XXX@popyvanov.ru</code>
-    </br>свяжитесь с <a href="mailto:mail@htmlacademy.ru">владельцем домена</a>
+          Домен <code>popyvanov.ru</code> занят. Для того, чтобы получить домены типа  <code>XXX.popyvanov.ru</code> или почты формата <code>XXX@popyvanov.ru</code> свяжитесь с <a href="mailto:mail@htmlacademy.ru">владельцем домена</a>
+        </p>
+        <p>
+          Для того, чтобы получить домены типа  <code>XXX.popyvanov.ru</code> или почты формата <code>XXX@popyvanov.ru</code> свяжитесь с <a href="mailto:mail@htmlacademy.ru">владельцем домена</a>
         </p>
      <ul>
      <li><a href="https://s.popyvanov.ru/blog">https://s.popyvanov.ru/blog</a> - персональный блог</li>
